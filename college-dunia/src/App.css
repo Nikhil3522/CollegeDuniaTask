@@ -1,0 +1,123 @@
+.bodyContainer{
+  width: 1100px;
+  margin: auto;
+}
+
+hr{
+  width: 140%; 
+  margin-left: -220px;
+  background-color: #dedede;
+  opacity: 0.4;
+  margin-top: 50px; 
+  margin-bottom: 50px;
+}
+
+tr:nth-child(even){
+  background-color: rgb(245, 248, 249);
+  padding: 15px;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid #dedede;
+
+}
+
+td, th {
+  border: none;
+  padding: 15px;
+  border-top: 1px solid #dedede;
+
+}
+
+th{
+  text-align: left;
+}
+.studyGoalDiv{
+  border: 1px solid #dedede;
+  padding: 15px;
+  border-radius: 4px;
+  width: 240px !important;
+  height: 250px;
+}
+
+.topStudyPlaceContainer{
+  border: 1px solid #dedede;
+  border-radius: 5px;
+  width: 150px !important;
+}
+
+.inputDiv{
+  border: 1px solid #dedede;
+  width: 230px;
+  height: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 4px;
+}
+
+.inputDiv input{
+  border: none;
+  outline: none;
+  font-size: 16px;
+  height: 38px;
+  margin-left: 10px;
+}
+
+.inputDiv img{
+  vertical-align: middle
+}
+
+.topcoursesDiv{
+  background-color: #F5F8F9;
+  border-top: 1px solid rgb(233, 233, 233);
+  border-bottom: 1px solid rgb(233, 233, 233);
+  width: 140%; 
+  margin-left: -220px;
+  padding-left: 220px;
+}
+
+.topCollectionItem{
+  width: 203px;
+  height: 210px;
+  overflow: hidden;
+}
+
+.topCollectionItem img{
+  height: 210px;
+}
+
+.headerButton{
+  border: 1px solid white;
+  height: 30px;
+  padding: 0 10px;
+  margin-top: 10px;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.headerButton:hover {
+  background-color: rgb(255,255,255, 0.4);
+}
+
+input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.clgRankingTable{
+  width: 100%;
+}
+
+.clgRankingTable td, .clgRankingTable th{
+  border-right: 1px solid #dedede;
+}
